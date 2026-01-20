@@ -173,7 +173,6 @@ This project demonstrates:
 It is intentionally simple in business logic and focused on **engineering quality**.
 
 ---
-
 ## 👨‍💻 Author
 
 Built by **Fabricio Anchundia**
