@@ -1,5 +1,5 @@
 ```md
-# Monitoring & Logging Platform for Microservices
+# 🚀 Monitoring & Logging Platform — Secure Observability for Microservices
 
 A production-oriented observability platform built to demonstrate how monitoring, metrics, and logging are implemented in real-world microservice architectures.
 
