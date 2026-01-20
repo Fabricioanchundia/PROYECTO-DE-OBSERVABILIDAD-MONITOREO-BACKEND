@@ -1,11 +1,8 @@
-```md
 # 🚀 Monitoring & Logging Platform — Secure Observability for Microservices
 
 A production-oriented observability platform built to demonstrate how monitoring, metrics, and logging are implemented in real-world microservice architectures.
 
 This project focuses exclusively on **observability**, not business logic, and is designed as a **portfolio project** to showcase backend engineering practices used in production environments.
-
----
 
 ## 🎯 Project Goals
 
