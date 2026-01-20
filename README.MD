@@ -183,12 +183,6 @@ Focused on scalable systems, observability, and production readiness.
 
 ---
 
-## 📌 Future Improvements (Optional)
-
-* Centralized log aggregation (Loki / ELK)
-* Alerting rules in Prometheus
-* Distributed tracing (OpenTelemetry)
-
 ```
 
 
