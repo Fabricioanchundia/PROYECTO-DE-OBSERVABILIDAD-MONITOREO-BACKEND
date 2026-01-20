@@ -1,6 +1,7 @@
-import { Module } from '@nestjs/common';
+import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { HealthModule } from './health/health.module';
 import { MetricsModule } from './metrics/metrics.module';
+import { MetricsMiddleware } from './middleware/metrics.middleware';
 import { LoggerModule } from 'nestjs-pino';
 import { randomUUID } from 'crypto';
 
@@ -27,4 +28,8 @@ import { randomUUID } from 'crypto';
     MetricsModule,
   ],
 })
-export class AppModule {}
+export class AppModule implements NestModule {
+  configure(consumer: MiddlewareConsumer) {
+    consumer.apply(MetricsMiddleware).forRoutes('*');
+  }
+}
