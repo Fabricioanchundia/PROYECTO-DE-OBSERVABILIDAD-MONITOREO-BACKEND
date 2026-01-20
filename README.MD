@@ -1,4 +1,3 @@
-
 ```md
 # Monitoring & Logging Platform for Microservices
 
@@ -180,7 +179,6 @@ It is intentionally simple in business logic and focused on **engineering qualit
 Built by **Fabricio Anchundia**
 Backend / Platform Engineering Enthusiast
 Focused on scalable systems, observability, and production readiness.
-
 ---
 
 ```
