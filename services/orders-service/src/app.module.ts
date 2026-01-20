@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { HealthModule } from './health/health.module';
+import { MetricsModule } from './metrics/metrics.module';
 import { LoggerModule } from 'nestjs-pino';
 import { randomUUID } from 'crypto';
 
@@ -23,6 +24,7 @@ import { randomUUID } from 'crypto';
       },
     }),
     HealthModule,
+    MetricsModule,
   ],
 })
 export class AppModule {}
